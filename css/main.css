@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+
+}
+.wrapper{
+    width: 100%;
+    padding-left: 16px;
+}
+.row {
+    height: 5px;
+    background-color: #ffffff;
+}
+.row div{
+    height: 5px;
+    width: 5px;
+    /*margin-left:1px;*/
+    /*margin-bottom:1px;*/
+    /*margin: 1px;*/
+    display: inline-block;
+
+}
+.row div.active{
+    background-color: #2b2d2f;
+}
+.row div.inactive {
+    background-color: #cccccc;
+}
+#rule-area div.input-group{
+    margin-bottom : 10px;
+
+}
+.rule-box{
+
+}
+.rule-box__rule{
+
+}
+.rule .active {
+    background-color: black;
+
+}
+#custom-rules{
+    display: block
+}
+.rule {
+    display: inline-block;
+    margin-left: 20px;
+}
+.rule .rule__prev-row div, .rule .rule__next-row div{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin : 0px;
+}
+.rule .rule__prev-row div ,.rule .rule__next-row--prev {
+    border: 1px black solid;
+}
+.rule .rule__prev-row div.active ,.rule .rule__next-row--prev .active {
+ background-color: black;
+}
